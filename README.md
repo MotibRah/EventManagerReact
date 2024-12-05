@@ -2,14 +2,14 @@
 
 ## Overview
 
-The **Event Planner Application** is a web-based platform designed to allow users to create, manage, and join events. It incorporates essential features such as authentication, authorization, and event status management. Users can create their accounts, log in, and join events, while event creators can manage their events and view users who have joined. The application features a clean and modern design using **Tailwind CSS** for styling, **React** with **Inertia.js** for a dynamic, single-page application experience, and **Laravel** as the backend framework.
+The **Event Planner Application** is a web-based platform designed to allow users to create, manage, and join events. It incorporates essential features such as authentication, authorisation, and event status management. Users can create their accounts, log in, and join events, while event creators can manage their events and view users who have joined. The application features a clean and modern design using **Tailwind CSS** for styling, **React** with **Inertia.js** for a dynamic, single-page application experience, and **Laravel** as the backend framework.
 
 In this project, we've focused on user-friendliness, ensuring that both event creators and participants can seamlessly interact with the platform. The application also integrates code quality and testing tools like **Pest** for testing and **PHPStan** for static code analysis, ensuring that the application remains robust and maintainable.
 
 ## Features
 
 ### 1. **User Authentication and Authorization**
-   The system is built around a secure authentication and authorization model. Here's how it works:
+   The system is built around a secure authentication and authorisation model. Here's how it works:
    - **Sign Up and Login**: New users can sign up for an account using a simple registration form. Once registered, users can log in using their credentials.
    - **Event Joining**: To join an event, users must first log in. Once authenticated, they can participate in any available event by clicking on the "Join" button for that event.
 
@@ -24,7 +24,7 @@ In this project, we've focused on user-friendliness, ensuring that both event cr
    - Event Status (Pending, Active, or Completed)
 
    The creator can also edit or delete their events as needed. Each event has three statuses:
-   - **Pending**: Events that are waiting to be approved or finalized.
+   - **Pending**: Events that are waiting to be approved or finalised.
    - **Active**: Events that are currently live and participants can join.
    - **Completed**: Events that have already concluded.
 
@@ -50,7 +50,7 @@ In this project, we've focused on user-friendliness, ensuring that both event cr
    Creators can only manage their events, and they are responsible for marking the event as **Completed** once it has concluded. The event’s status can be updated at any time, which will reflect on the homepage for all users to see.
 
 ### 5. **Event Status Management**
-   Events in the platform are categorized into three statuses: **Pending**, **Active**, and **Completed**. The status is essential for organizing the flow of events:
+   Events in the platform are categorized into three statuses: **Pending**, **Active**, and **Completed**. The status is essential for organising the flow of events:
    - **Pending**: Initially, all events are set to **Pending**. These events are visible only to the event creators and admins.
    - **Active**: Once the event is approved and ready for participation, it is set to **Active**. This status allows users to join the event, and the event will be shown on the homepage.
    - **Completed**: After an event has finished, the event status is changed to **Completed**. These events are hidden from the homepage but remain accessible to the event creator and any users who joined the event.
@@ -61,7 +61,7 @@ In this project, we've focused on user-friendliness, ensuring that both event cr
    - **Laravel**: The backend is powered by Laravel, a PHP framework known for its simplicity and powerful features. Laravel is used for handling database migrations, routing, controllers, and authentication.
    - **React**: The frontend is built using React.js, which provides a dynamic, component-based structure for the user interface. This ensures that the application is highly interactive, with minimal page reloads, giving a smoother user experience.
    - **Inertia.js**: Inertia.js bridges the gap between React and Laravel, making it easy to create single-page applications (SPAs) without needing a dedicated API layer. Inertia allows Laravel to serve React components as pages while maintaining full backend control.
-   - **Tailwind CSS**: For styling, Tailwind CSS is used. It is a utility-first CSS framework that enables rapid UI development with a clean and responsive design. Tailwind is highly customizable and fits well with the component-based structure of React.
+   - **Tailwind CSS**: For styling, Tailwind CSS is used. It is a utility-first CSS framework that enables rapid UI development with a clean and responsive design. Tailwind is highly customisable and fits well with the component-based structure of React.
    - **Pest**: Pest is a testing framework for PHP that works beautifully with Laravel. It simplifies the writing of tests and makes the process of running them more intuitive. Pest is used for testing the backend features of the application, ensuring that everything works correctly.
    - **PHPStan**: PHPStan is a static analysis tool that helps to detect errors in your code without actually running it. It ensures code quality by identifying potential issues, such as type errors, undefined variables, or method calls on non-object types.
 
@@ -87,12 +87,12 @@ To install the Event Planner Application locally:
 
 1. Clone the repository:
     ```bash
-    git clone [https://github.com/MotibRah/event-manager]
+    git clone [https://github.com/MotibRah/EventManagerReact]
     ```
 
 2. Navigate to the project directory:
     ```bash
-    cd event-planner
+    cd EventManagerReact
     ```
 
 3. Install the dependencies:
@@ -123,6 +123,10 @@ To install the Event Planner Application locally:
     ```bash
     php artisan serve
     ```
+8. Install npm dependencies:
+    ```bash
+    npm install
+    ```
 
 8. Start the client server:
     ```bash
@@ -149,3 +153,4 @@ Contributions are welcome! Please feel free to submit a pull request or open an 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
