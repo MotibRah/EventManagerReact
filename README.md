@@ -8,7 +8,7 @@ In this project, we've focused on user-friendliness, ensuring that both event cr
 
 ## Features
 
-### 1. **User Authentication and Authorization**
+### 1. **User Authentication and Authorisation**
    The system is built around a secure authentication and authorisation model. Here's how it works:
    - **Sign Up and Login**: New users can sign up for an account using a simple registration form. Once registered, users can log in using their credentials.
    - **Event Joining**: To join an event, users must first log in. Once authenticated, they can participate in any available event by clicking on the "Join" button for that event.
@@ -33,7 +33,7 @@ In this project, we've focused on user-friendliness, ensuring that both event cr
 ### 3. **Event Joining and User Dashboard**
    With or Without logging in, users can see a list of **Pending** and **Active** events on the homepage. To join an event, the user simply clicks the "Join" button, and they are added to the event's participant. Users can only join an event if they are logged in.
 
-   Once a user joins an event, they can access a personalized dashboard that displays all the events they have joined. From this dashboard, users can:
+   Once a user joins an event, they can access a personalised dashboard that displays all the events they have joined. From this dashboard, users can:
    - View the events they are part of.
    - See event details, including the title, description, and status.
    - Leave an event if they choose to withdraw.
@@ -50,7 +50,7 @@ In this project, we've focused on user-friendliness, ensuring that both event cr
    Creators can only manage their events, and they are responsible for marking the event as **Completed** once it has concluded. The event’s status can be updated at any time, which will reflect on the homepage for all users to see.
 
 ### 5. **Event Status Management**
-   Events in the platform are categorized into three statuses: **Pending**, **Active**, and **Completed**. The status is essential for organising the flow of events:
+   Events in the platform are categorised into three statuses: **Pending**, **Active**, and **Completed**. The status is essential for organising the flow of events:
    - **Pending**: Initially, all events are set to **Pending**. These events are visible only to the event creators and admins.
    - **Active**: Once the event is approved and ready for participation, it is set to **Active**. This status allows users to join the event, and the event will be shown on the homepage.
    - **Completed**: After an event has finished, the event status is changed to **Completed**. These events are hidden from the homepage but remain accessible to the event creator and any users who joined the event.
